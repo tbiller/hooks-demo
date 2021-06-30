@@ -1,2 +1,2 @@
-# hooks-demo
+# react-hook-visual
 Created with CodeSandbox

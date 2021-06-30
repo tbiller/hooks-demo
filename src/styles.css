@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow";
+}
+.nudge-wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 800;
+  margin: 10px 0px;
+}
+
+.timeline-step {
+  padding: 12px;
+  margin: 4px;
+  border: 1px solid #ddd;
+}
+
+.timeline-step-header {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.nudge {
+  width: 400px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#nudge-container {
+  background-color: inherit;
+  padding: 20px;
+}
+.nudge-content {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.nudge-text {
+  color: rgb(82, 82, 91);
+}
+.nudge-image {
+  background-color: rgb(247, 245, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 180px;
+  position: relative;
+}
+.nudge-image img {
+  max-width: 90%;
+  max-height: 90%;
+}
+.nudge-image button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
